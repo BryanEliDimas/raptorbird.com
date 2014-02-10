@@ -1,0 +1,22 @@
+body {
+	background-color: #eee
+}
+
+.bringdown {  /* used to maintain proper spacing between consecutive content blocks; replaces adding to br tags */
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+.bringdown-separate {
+	margin: 2em;
+}
+
+.navbar {  /* to override default behavior and maintain navbar fixed top even in small screen size */
+	position: fixed;
+	padding: 0;
+	margin: 0;
+}
+
+#white-border {
+	text-shadow:  -3px 0 white, 0 3px white, 3px 0 white, 0 -3px white;
+}
