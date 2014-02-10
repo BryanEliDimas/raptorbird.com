@@ -235,14 +235,18 @@
 
     <div class="row-fluid">
       <div class="span1"></div>
-      <div class"span4">
-        <div style="padding: 8%"><a href="https://github.com/RakshakTalwar/ProgrammableCapacitor" target="_blank"><img src="img/github.png"></a></div>
+      <div class"span4" style="padding-left: 8%; padding-top: 4em">
+        <span style="color: #00A9BE; font-size: 1.3em">Download OSHW files</span>
+            <br>
+
+            <a href="https://github.com/RakshakTalwar/ProgrammableCapacitor" target="_blank"><img src="img/github.png"></a> <br> <br>
+            <img src="img/open_source_hardware.png" alt="open source hardware image">
       </div>
     </div>
 
     <div class="row-fluid visible-desktop" style="margin-top: 7em">
       <div class="span10 offset1 badge badge-info" style="font-size: .9em">
-        
+
         <h1 style="font-size: 2em">Programmable Capacitor Visualization</h1>
         <p>A very handy file that helps you select the switches based on your desired value.</p> <br />
         Author: Rick Skubic &nbsp; &nbsp; &nbsp; <button class="btn btn-large" style="margin-bottom: .7em"><a style="color: darkOrange" href="programmable_capacitor.xlsx">Excel</a></button>
@@ -266,7 +270,7 @@
       </div>
       <div class="span10 badge badge-success hidden-phone" style="font-size: .9em; margin-left: 8.55%">
         <p style="font-size: 2em; padding-top: .8em">Many thanks to our greatly appreciated contributors!</p> <br />
-        <button class="btn btn-large" data-toggle="modal" data-target="#thanks" role="dialog" style="margin-bottom: .7em; margin-left: 37%">Display Contributors</button>
+        <button class="btn btn-large" data-toggle="modal" data-target="#thanks" role="dialog" style="margin-bottom: .7em">Display Contributors</button>
 
       </div>
 
@@ -286,7 +290,7 @@
                 <div class="accordion-inner">
                   <ul style="list-style-type: none">
                     <li>Ashley Wurzbacher</li>
-                    <?php include('names-practice.php'); ?>
+                    <?php include('names.php'); ?>
                     <li>@TheJamesJones</li>
                     <li class="visible-phone" style="visibility:hidden">--------------</li>
                   </ul>

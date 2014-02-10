@@ -136,7 +136,7 @@
           </a> <br>
 
           <div class="pagination-centered">
-            <span style="color: #0196FB">Download OSHW files</span>
+            <span style="color: #00A9BE">Download OSHW files</span>
             <br>
 
             <a href="https://github.com/RakshakTalwar/SleepLite"><img src="img/github.png">
